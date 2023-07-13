@@ -2,7 +2,7 @@
 /**
 * main - the main function
 * printf - function to print
-* Return : 0 return the positive valuio
+* Return: the 0 is to  return the positive valuio
 */
 int main(void)
 {
