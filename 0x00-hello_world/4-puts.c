@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
-* main - this is my first line on c programe
-* return : 0 for positive valio 1 for negative valio
-*/
+ * main - the main function
+ * puts - function to print
+ * Return: Description of the returned value
+ */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
