@@ -1,1 +1,1 @@
-welcome to my begenning shell programmer
+welcome to my begenning C programmer
