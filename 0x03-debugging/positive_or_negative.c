@@ -1,28 +1,26 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-#include "0-main.c"
-#include "main.h"
+
 /**
- * positive_or_negative - myfunction
- * printf - function to print
- * if_else - functions of comparison
- * Return: Description of the returned value
- */
-int main ()
+ * main - Entry point
+ *
+ * Description: print value of n satus; zero, positive or negative
+ *
+ * Return: Always 0 (Success)
+*/
+
+void positive_or_negative(int i)
 {
-int n;
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-if (n > 0)
-{
-printf("%i is positive\n", n);
-}
-else if (n == 0)
-{printf("%i is zero\n", n);
-}else
-{
-printf("%i is negative\n", n);
-}
-return (0);
+	/* my if statement */
+	if (i == 0)
+	{
+		printf("%d is zero\n", i);
+	}
+	else if (i > 0)
+	{
+		printf("%d is positive\n", i);
+	}
+	else
+	{
+		printf("%d is negative\n", i);
+	}
 }
