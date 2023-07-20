@@ -1,11 +1,12 @@
 #include <stdio.h>
 /**
- * _isupper - the main function
- * if_else - my loop function
- * Return: Description of the returned value
+ * _isupper - A function that checks for uppercase character.
+ * @c: An input character
+ * Return: 1 if c is uppercase or 0 otherwise
  */
-int _isupper(int c) {
-if ( c >= 'A' && c <= 'Z' )
+int _isupper(int c)
+{
+if (c >= 'A' && c <= 'Z')
 {
 return (1);
 }
