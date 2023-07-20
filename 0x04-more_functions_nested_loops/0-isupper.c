@@ -1,9 +1,16 @@
 #include <stdio.h>
 /**
  * _isupper - the main function
- * puts - function to print
+ * if_else - my loop function
  * Return: Description of the returned value
  */
 int _isupper(int c) {
-    return c >= 'A' && c <= 'Z' ? 1 : 0;
+if ( c >= 'A' && c <= 'Z' )
+{
+return (1);
+}
+else
+{
+return (0);
+}
 }
