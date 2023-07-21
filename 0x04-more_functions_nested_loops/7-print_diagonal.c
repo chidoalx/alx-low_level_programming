@@ -10,7 +10,7 @@ void print_diagonal(int n)
 int postn, space;
 if (n <= 0)
 {
-printf("\n");
+printf("\\n\n");
 }
 else
 {
