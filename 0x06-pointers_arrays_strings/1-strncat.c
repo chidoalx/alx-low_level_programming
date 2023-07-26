@@ -24,5 +24,5 @@ n--;
 }
 /* Null-terminate the concatenated string*/
 *dest_ptr = '\0';
-return dest;
+return (dest);
 }
