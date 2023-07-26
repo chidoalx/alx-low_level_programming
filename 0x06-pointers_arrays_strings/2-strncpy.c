@@ -15,5 +15,5 @@ while (n > 0) {
 dest_ptr++;
 n--;
 }
-return dest;
+return (dest);
 }
